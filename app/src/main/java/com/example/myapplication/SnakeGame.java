@@ -238,8 +238,8 @@ class SnakeGame extends SurfaceView implements Runnable {
 
             // Draw names in the top right corner
             mPaint.setTextSize(40);
-            mCanvas.drawText("Your Name", mCanvas.getWidth() - 300, 50, mPaint);
-            mCanvas.drawText("Partner's Name", mCanvas.getWidth() - 300, 100, mPaint);
+            mCanvas.drawText("HORMOZ HALIMI", mCanvas.getWidth() - 300, 50, mPaint);
+            mCanvas.drawText("MY PARTNER's Name", mCanvas.getWidth() - 300, 100, mPaint);
 
             // Draw the pause button
             if (!pausedByButton) {
